@@ -1,0 +1,147 @@
+#logo {
+		max-height: 60px !important;
+}
+
+
+h1, h2, h3 {
+	color: #af1c70;
+	font-weight: bold;
+}	
+body {
+	color: #ababab;
+	background-color: #f5e8ef;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav {
+	box-shadow: 0px 2px 10px grey;
+}
+
+.imageCarousel {
+	width: 80%;
+}
+
+footer {
+	background-color: #af1c70;
+	color: white;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 10px 0px 0px;	
+	z-index: 15;
+}
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #af1c70;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #af1c70;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.jobCard {
+	padding: 5px 10px;
+}
+
+.jobCard >h2> a {
+	color: #af1c70;
+}
+
+#pageLinks a {
+	color: #af1c70;
+}
+
+#pageLinks ul li.active span.page-link {
+	background-color: #af1c70 !important;
+	border-color: #af1c70 !important;;
+	color: white;
+}
+
+
+.card-header-finessa {
+	background-color: #af1c70 !important;
+	color: white;
+}
+
+.form-finessa:focus {
+	border: #af1c70;
+	box-shadow: 0 0 10px #af1c70 !important;
+}
+
+.btn-primary-finessa {
+	background: #af1c70 !important;
+	color: white;
+	border: solid 1px #af1c70 !important;
+}
+
+.btn-primary-finessa:hover {
+	background-color: white !important;
+	color: #af1c70 !important;
+	border: 2px solid #af1c70 !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.card-link {
+	color: #af1c70 !important;;
+}
+
+
+strong {
+	color: #af1c70;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+
+@media screen AND (min-width: 577px) {
+	#wrapper {
+	margin: 60px auto 60px;
+} 
+}
+
+@media screen AND (max-width: 576px) {
+	#wrapper {
+	margin: 60px auto 80px;
+} 
+}
